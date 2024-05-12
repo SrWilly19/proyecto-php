@@ -31,9 +31,8 @@ curl_close($ch);
 </head>
 
 <main>
-    
-    <section>
-        <h1><?= $data["title"]; ?>.</h1>
+    <h1><?= $data["title"]; ?>.</h1>
+    <section>    
         <img src="<?= $data["poster_url"]; ?>"  width="300" alt="Poster de <?= $data["title"]?>"  style="border-radius: 16px;"/>
     </section>
 
