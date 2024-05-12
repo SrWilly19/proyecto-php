@@ -24,14 +24,14 @@ curl_close($ch);
 
 <head>
     <meta charset="UTF-8" />
-    <title>La próxima pelicula de Marvel</title>
+    <title>La próxima pelicula de Marvel es</title>
     <meta name="description" content="La próxima pelicula de Marvel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
 </head>
 
 <main>
-    <h1><?= $data["title"]; ?>.</h1>
+    <h1><a href="https://www.youtube.com/watch?v=B0LjOb8dXpw&ab_channel=MarvelEspa%C3%B1a" target="_blank" rel="noopener noreferrer"> <?= $data["title"]; ?>.</a></h1>
     <section>    
         <img src="<?= $data["poster_url"]; ?>"  width="300" alt="Poster de <?= $data["title"]?>"  style="border-radius: 16px;"/>
     </section>
@@ -48,19 +48,33 @@ curl_close($ch);
 <style>
     :root {
         color-scheme: light dark;
+        background-color: linear-gradient(to bottom, #0a0f0d, #000000);
     }
 
     body {
         display: grid;
         place-content: center;
     }
+    h1{
+        background: linear-gradient(to right, #FF6347, #F0E68C);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: text-shadow 0.3s ease;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    h1:hover{
+        text-shadow: 4px 4px 8px rgba(0, 0, 15, 0.7);
+    }
     section{
-        display: block;
+        display: flex;
         justify-content: center;
     }
     img{
-        margin: 0;
-        margin-left: 50px;
+        margin: 0 auto;
     }
     hgroup{
         display: flex;
