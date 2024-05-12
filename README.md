@@ -19,3 +19,27 @@ Para poner en funcionamiento este proyecto localmente, necesitarás tener instal
 1. Clona el repositorio en tu servidor local:
    ```bash
    git clone https://github.com/tu-usuario/marvel-movie-countdown.git
+
+2. Navegta a la carpeta del proyecto y abre 'index.php' en tu navegador
+
+## Contribuir
+Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz fork del repositorio y envía una pull request.
+
+1. Fork del proyecto
+2. Crea tu Feature Branch (`git checkout -b feature/NuevaCaracterística`)
+3. Realiza tus cambios en los archivos
+4. Haz Commit de tus cambios (`git commit -m "Añadir alguina característica nueva"`)
+5. Push al Branch (`git push origin feature/NuevaCaracterístca`)
+6. Abre un Pull Request
+
+## Licencia
+Este proyecto esta bajo la Licencia MIT.
+
+## Creditos
+- API proporcionada por [When Is The Next MCU Film](https://dev.whenisthenextmcufilm.com/api)
+- Estilo CSS por [Pico.css](https://picocss.com/)
+- Proyecto aprendido en [Midudev](https://www.youtube.com/watch?v=BcGAPkjt_IE&t=4384s&ab_channel=midulive)
+
+## Contacta 
+Willy - [wahcoral.dev@gmail.com](wahcoral.dev@gmail.com)
+Link del [proyecto](https://github.com/SrWilly19/proyecto-php)
