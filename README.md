@@ -41,5 +41,5 @@ Este proyecto esta bajo la Licencia MIT.
 - Proyecto aprendido en [Midudev](https://www.youtube.com/watch?v=BcGAPkjt_IE&t=4384s&ab_channel=midulive)
 
 ## Contacta 
-Willy - [wahcoral.dev@gmail.com](wahcoral.dev@gmail.com)
-Link del [proyecto](https://github.com/SrWilly19/proyecto-php)
+- Willy, [wahcoral.dev@gmail.com](wahcoral.dev@gmail.com)
+- Link del [proyecto](https://github.com/SrWilly19/proyecto-php)
