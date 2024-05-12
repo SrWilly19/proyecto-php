@@ -48,12 +48,12 @@ curl_close($ch);
 <style>
     :root {
         color-scheme: light dark;
-        background-color: linear-gradient(to bottom, #0a0f0d, #000000);
     }
 
     body {
         display: grid;
         place-content: center;
+        background-image: linear-gradient(to bottom, #0a0f0d, #000000);
     }
     h1{
         background: linear-gradient(to right, #FF6347, #F0E68C);
