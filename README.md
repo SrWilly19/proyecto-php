@@ -42,4 +42,4 @@ Este proyecto esta bajo la Licencia MIT.
 
 ## Contacta 
 - Willy, [wahcoral.dev@gmail.com](wahcoral.dev@gmail.com)
-- Link del [proyecto](https://github.com/SrWilly19/proyecto-php)
+- Link del [proyecto](https://nextmoviemarvel.zeabur.app/)
