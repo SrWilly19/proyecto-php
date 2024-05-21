@@ -31,7 +31,7 @@ curl_close($ch);
 </head>
 
 <main>
-    <h1><a href="https://www.youtube.com/watch?v=B0LjOb8dXpw&ab_channel=MarvelEspa%C3%B1a" target="_blank" rel="noopener noreferrer"> <?= $data["title"]; ?>.</a></h1>
+    <h1><?= $data["title"]; ?>.</h1>
     <section>    
         <img src="<?= $data["poster_url"]; ?>"  width="300" alt="Poster de <?= $data["title"]?>"  style="border-radius: 16px;"/>
     </section>
